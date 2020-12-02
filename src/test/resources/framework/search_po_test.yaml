@@ -1,0 +1,10 @@
+data:
+  - demo1
+  - demo2
+#todo: 支持page object
+
+steps:
+  - init: {mainPage, com.po.MainPage}
+  - mainPage.search: {}
+#  -SearchPage: {}
+#  -SearchPage.search: ${data}
